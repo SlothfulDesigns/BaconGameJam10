@@ -2,15 +2,12 @@
 using System.Collections;
 using System.Collections.Generic;
 
-public class Level1 : MonoBehaviour {
+public class Level1 : Level {
 
 
-    public IList<Quest> quests;
 
 	// Use this for initialization
 	void Start () {
-
-        quests = new List<Quest>();
 
         var q1 = new Quest("wakeup", "Wakey wakey eggs and bakey", true);
         q1.AddObjective(new Objective("shootAlarm"));
@@ -23,11 +20,5 @@ public class Level1 : MonoBehaviour {
 	    
 	}
 
-    public void CompleteObjective(string id){
-        foreach (var q in quests)
-        {
-            q.CompleteObjective(id);
-        }
-    }
 }
 
