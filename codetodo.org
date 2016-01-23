@@ -1,0 +1,45 @@
+* Core
+** TODO Menus
+** TODO Level loading
+
+* Level
+** TODO Scoring
+** TODO Puzzles
+** TODO Daily schedule
+
+* Items
+** TODO OnShot events
+** TODO Physics
+
+* Player
+** TODO Movement
+** TODO Shootan
+** TODO Aiming
+   
+
+* Assets
+** Items
+*** Radio
+    shoot to toggle on/off
+*** Toast
+    shoot to move around, aim for the toaster
+*** Toaster
+    shoot to turn on
+*** Coffee maker
+    shoot to turn on, shoot again to break the coffee pot
+*** Oven
+    shoot to turn on (resulting in largeish flames but that's alright)
+*** Frying pan
+    physical, shoot to move around, aim for the oven
+*** Eggs
+    shoot to splash all over the place / pan
+*** Clothing rack
+    shoot to drop clothes and wear them if standing next to the clothing rack
+*** Alarm clock 
+    shoot to turn off
+*** Bed
+    shoot to remove blanket
+*** Lights
+    shoot to turn off
+*** Door
+    shoot lock to open
