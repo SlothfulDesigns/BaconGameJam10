@@ -3,7 +3,7 @@ using System.Collections;
 
 public class Item : MonoBehaviour {
 
-    private bool flying, broken;
+     bool flying, broken;
 
 	// Use this for initialization
 	void Start () {
@@ -16,10 +16,17 @@ public class Item : MonoBehaviour {
 	    
 	}
 
+    public bool IsBroken(){
+        return broken;
+    }
+
     public virtual void OnShot()
     {
         //already shot
-        if(!broken) return;
+        if(broken) return;
+
+        broken = true;
+        Debug.Log(this.name + " shot to shit");
     }
 
     public virtual void OnPlayerCollision()

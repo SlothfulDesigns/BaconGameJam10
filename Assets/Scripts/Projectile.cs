@@ -21,7 +21,6 @@ public class Projectile : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D c)
     {
-        Debug.Log("collision");
         var target = c.gameObject;
         var item = target.GetComponent<Item>();
 

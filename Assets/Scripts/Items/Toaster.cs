@@ -16,5 +16,6 @@ public class Toaster : Item {
     public override void OnShot()
     {
         //
+        Debug.Log("TOASTIN, AWW YISS");
     }
 }
