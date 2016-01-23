@@ -4,6 +4,8 @@ using UnityEngine;
 public class Quest {
     private bool completed, started, failed, ordered = false;
     private int objectivesCompleted = 0;
+
+    public bool completesLevel = false;
     public string id, name, description;
     public List<Objective> objectives;
 
@@ -12,6 +14,11 @@ public class Quest {
         this.name = name;
         this.ordered = ordered;
         objectives = new List<Objective>();
+    }
+
+    public bool IsCompleted()
+    {
+        return completed;
     }
 
     public void AddObjective(Objective objective)

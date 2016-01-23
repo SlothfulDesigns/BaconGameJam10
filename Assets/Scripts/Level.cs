@@ -27,7 +27,14 @@ public class Level : MonoBehaviour {
         {
             if (q.CompleteObjective(id))
             {
-                completedQuests++;
+                if (q.IsCompleted())
+                {
+                    completedQuests++;
+                    if (q.completesLevel)
+                    {
+                        CompleteLevel();
+                    }
+                }
             };
         }
     }
