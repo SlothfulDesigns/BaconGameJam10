@@ -12,9 +12,9 @@
 ** TODO Physics
 
 * Player
-** TODO Movement
+** DONE Movement
 ** TODO Shootan
-** TODO Aiming
+** DONE Aiming
    
 
 * Assets
