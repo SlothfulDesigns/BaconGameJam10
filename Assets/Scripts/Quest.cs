@@ -3,11 +3,21 @@ using UnityEngine;
 
 public class Quest {
     private bool completed, started, failed, ordered = false;
+    private int objectivesCompleted = 0;
     public string id, name, description;
     public List<Objective> objectives;
 
     public Quest(){
         objectives = new List<Objective>();
+    }
+
+    public void AddObjective(Objective objective)
+    {
+        if (ordered && objectives.Count > 0 && objective.orderNumber == 0)
+        {
+            objective.orderNumber = objectives.Count + 1;
+        }
+        objectives.Add(objective);
     }
 
     public Objective GetObjective(string id) 
@@ -46,30 +56,37 @@ public class Quest {
                 int previous = objective.orderNumber - 1;
                 if (!GetObjective(previous).Complete)
                 {
-                    Fail("Previous objective was incomplete.");
+                    FailQuest("Previous objective was incomplete.");
                     return false;
                 }
             }
             objective.Complete();
+            objectivesCompleted++;
+
+            if (objectivesCompleted == objectives.Count)
+            {
+                CompleteQuest();
+            }
+
             return true;
         }
         Debug.LogError("Error in quest " + this.id + ": cannot find objective " + name);
         return false;
     }
 
-    public void Complete() 
+    public void CompleteQuest() 
     {
         this.completed = true;
         Debug.Log("Quest completed: " + id);
     }
 
-    public void Start() 
+    public void StartQuest() 
     {
         this.started = true;
         Debug.Log("Quest started: " + id);
     }
 
-    public void Fail(string reason) 
+    public void FailQuest(string reason) 
     {
         this.failed = true;
         Debug.Log("Quest failed: " + id + ". " + reason);
@@ -82,11 +99,7 @@ public class Objective
     public string id, description;
     public int orderNumber = 0;
 
-    public Objective()
-    {
-    }
-
-    public Objective(string id, string description)
+    public Objective(string id)
     {
     }
 
