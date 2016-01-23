@@ -13,7 +13,7 @@ public class Player : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         bullet = Resources.Load("Bullet") as GameObject;
-        position = new Vector2(transform.position.x, transform.position.y);
+        position = new Vector2(transform.position.x + 1f, transform.position.y + 1f);
         mousePosition = new Vector2();
         weaponReady = true;
 	}
