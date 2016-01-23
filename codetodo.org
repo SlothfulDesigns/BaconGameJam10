@@ -8,12 +8,12 @@
 ** TODO Daily schedule
 
 * Items
-** TODO OnShot events
+** DONE OnShot events
 ** TODO Physics
 
 * Player
 ** DONE Movement
-** TODO Shootan
+** DONE Shootan
 ** DONE Aiming
    
 
