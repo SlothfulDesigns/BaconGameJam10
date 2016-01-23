@@ -59,20 +59,26 @@ public class Player : MonoBehaviour {
 
     private void Shoot()
     {
-            weaponReady = !aiming;
+        weaponReady = !aiming;
 
-            GameObject projectile = Instantiate(bullet) as GameObject;
-            projectile.transform.position = position;
-            var rb = projectile.GetComponent<Rigidbody2D>();
-            rb.simulated = true;
+        GameObject projectile = Instantiate(bullet) as GameObject;
+        projectile.transform.position = position;
+        Physics2D.IgnoreCollision(projectile.GetComponent<Collider2D>(), GetComponent<Collider2D>());
+        var rb = projectile.GetComponent<Rigidbody2D>();
+        rb.simulated = true;
 
-            rb.AddForce(aimDirection * 2000);
+        rb.AddForce(aimDirection * 2000);
 
-            if (!aiming)
-            {
-                var scatter = Mathf.Sin(Time.frameCount / 2) * GetRandom();
-                rb.AddForce(new Vector2(scatter, scatter) * 500);
-            }
+        if (aiming)
+        {
+            GetComponent<Rigidbody2D>().AddForce(-aimDirection * 100);
+        }
+        else
+        {
+            var scatter = Mathf.Sin(Time.frameCount / 2) * GetRandom();
+            rb.AddForce(new Vector2(scatter, scatter) * 500);
+            GetComponent<Rigidbody2D>().AddForce(-aimDirection * 200);
+        }
     }
 
     private static float GetRandom(){
