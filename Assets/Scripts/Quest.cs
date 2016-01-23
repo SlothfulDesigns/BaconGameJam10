@@ -54,7 +54,7 @@ public class Quest {
             if (ordered && objective.orderNumber > 0)
             {
                 int previous = objective.orderNumber - 1;
-                if (!GetObjective(previous).Complete)
+                if (!GetObjective(previous).IsCompleted())
                 {
                     FailQuest("Previous objective was incomplete.");
                     return false;
@@ -107,5 +107,9 @@ public class Objective
     {
         this.completed = true;
         Debug.Log("Objective completed: " + id);
+    }
+
+    public bool IsCompleted(){
+        return this.completed;
     }
 }
