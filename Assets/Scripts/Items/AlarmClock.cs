@@ -19,4 +19,15 @@ public class AlarmClock : Item {
             }
         }
 	}
+
+    public override void OnShot()
+    {
+        base.OnShot();
+
+        var level = FindObjectOfType<Level1>();
+        if (level != null)
+        {
+            level.CompleteObjective("shootAlarm");
+        }
+    }
 }

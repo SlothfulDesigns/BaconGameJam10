@@ -7,7 +7,10 @@ public class Quest {
     public string id, name, description;
     public List<Objective> objectives;
 
-    public Quest(){
+    public Quest(string id, string name, bool ordered){
+        this.id = id;
+        this.name = name;
+        this.ordered = ordered;
         objectives = new List<Objective>();
     }
 
@@ -50,6 +53,9 @@ public class Quest {
         var objective = GetObjective(name);
         if (objective != null)
         {
+            if (objective.IsCompleted())
+                return false;
+
             //quest is ordered and this isn't the first objective
             if (ordered && objective.orderNumber > 0)
             {
@@ -101,6 +107,7 @@ public class Objective
 
     public Objective(string id)
     {
+        this.id = id;
     }
 
     public void Complete()
