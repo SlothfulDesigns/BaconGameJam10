@@ -1,9 +1,13 @@
 fileFormatVersion: 2
 guid: 032718eecfe6a4d439d8fe2abcfea596
-timeCreated: 1453656887
+timeCreated: 1453666922
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: car_0
+    21300002: car_1
+    21300004: car_2
+    21300006: car_3
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -38,7 +42,7 @@ TextureImporter:
   rGBM: 0
   compressionQuality: 50
   allowsAlphaSplitting: 0
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -49,7 +53,71 @@ TextureImporter:
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: car_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 111
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -55.5, y: 28}
+        - {x: -55.5, y: -28}
+        - {x: 55.5, y: -28}
+        - {x: 55.5, y: 23}
+        - {x: 54.5, y: 28}
+    - name: car_1
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 0
+        width: 111
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -55.5, y: 28}
+        - {x: -55.5, y: -28}
+        - {x: 55.5, y: -28}
+        - {x: 55.5, y: 23}
+        - {x: 54.5, y: 28}
+    - name: car_2
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 0
+        width: 111
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -55.5, y: 28}
+        - {x: -55.5, y: -28}
+        - {x: 55.5, y: -28}
+        - {x: 55.5, y: 23}
+        - {x: 54.5, y: 28}
+    - name: car_3
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 0
+        width: 111
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -55.5, y: 28}
+        - {x: -55.5, y: -28}
+        - {x: 55.5, y: -28}
+        - {x: 55.5, y: 23}
+        - {x: 54.5, y: 28}
     outline: []
   spritePackingTag: 
   userData: 

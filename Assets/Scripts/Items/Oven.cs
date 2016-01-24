@@ -6,10 +6,17 @@ public class Oven : Item {
     private bool hasBacon, heated;
     private float cookingTime;
 
+    private AudioSource audioSource;
+    private AudioClip baconpancakes;
+    private bool pancaked;
+
     private Level1 level;
 
 	// Use this for initialization
 	void Start () {
+        pancaked = false;
+        audioSource = GetComponent<AudioSource>();
+        baconpancakes = Resources.Load<AudioClip>("Sounds/pekoni");
         cookingTime = 0.0f;
         level = FindObjectOfType<Level1>();
 	}
@@ -22,6 +29,12 @@ public class Oven : Item {
         if (heated && hasBacon)
         {
             cookingTime += Time.fixedDeltaTime;
+
+            if (!pancaked)
+            {
+                audioSource.PlayOneShot(baconpancakes);
+                pancaked = true;
+            }
         }
 
         if (cookingTime > 5.0f)
