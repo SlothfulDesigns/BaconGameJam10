@@ -36,7 +36,10 @@ public class Car : Item{
     }
 
     void OnTriggerEnter2D(Collider2D other){
-        Debug.Log("enter");
+
+        if (other.name != "Player")
+            return;
+
         if (open == Doors.OPEN)
         {
             open = Doors.GETIN;

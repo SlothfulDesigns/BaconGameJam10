@@ -29,7 +29,7 @@ public class Bacon : MonoBehaviour {
             transform.SetParent(other.transform);
             Vector3 parentPos = other.transform.position;
             //parentPos.x += 0.008f;
-            parentPos.y += 0.14f;
+            parentPos.y += 0.10f;
             transform.position = parentPos;
             level.CompleteObjective("putBaconOnOven");
             put = true;

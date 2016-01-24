@@ -12,7 +12,7 @@ public class Item : MonoBehaviour {
 	// Use this for initialization
 	public void Start () {
         audioSource = this.GetComponent<AudioSource>();
-        if (audioSource != null)
+        if (audioSource != null && breakFx == null)
         {
             breakFx = Resources.Load<AudioClip>("Sounds/break");
         }
@@ -27,6 +27,15 @@ public class Item : MonoBehaviour {
 
     public bool IsBroken(){
         return broken;
+    }
+
+    public void SetBreakFx(string sound){
+        var newFx = Resources.Load<AudioClip>(sound);
+
+        if (newFx != null)
+        {
+            breakFx = newFx;
+        }
     }
 
     public virtual void OnShot()
@@ -48,6 +57,7 @@ public class Item : MonoBehaviour {
         if (audioSource != null)
         {
             audioSource.PlayOneShot(breakFx);
+            audioSource.mute = true;
         }
     }
 
