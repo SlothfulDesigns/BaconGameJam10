@@ -13,11 +13,22 @@ public class Player : MonoBehaviour {
     private Animator animator;
     private SpriteRenderer sprite;
 
+    private AudioSource audioSource;
+    private AudioClip shootFx;
+
+    private float lastShot;
+
 	// Use this for initialization
 	void Start () {
+        audioSource = GetComponent<AudioSource>();
+
         bullet = Resources.Load("Bullet") as GameObject;
+        shootFx = Resources.Load<AudioClip>("Sounds/pew");
+
         position = new Vector2(transform.position.x + 1f, transform.position.y + 1f);
         mousePosition = new Vector2();
+
+        lastShot = Time.fixedTime;
         weaponReady = true;
 
         animator = this.GetComponent<Animator>();
@@ -42,8 +53,13 @@ public class Player : MonoBehaviour {
 
         if (Input.GetButton("Fire") && weaponReady)
         {
-            Shoot();
-            if (aiming) weaponReady = false;
+            if (Time.fixedTime - lastShot > 0.05)
+            {
+                Shoot();
+                if (aiming)
+                    weaponReady = false;
+                lastShot = Time.fixedTime;
+            }
         }
 
         if (Input.GetButtonUp("Fire") && !weaponReady)
@@ -104,6 +120,7 @@ public class Player : MonoBehaviour {
             rb.AddForce(sidewaysForce * 100);
             GetComponent<Rigidbody2D>().AddForce(-aimDirection * 50);
         }
+        audioSource.PlayOneShot(shootFx);
     }
 
     private static float GetRandom(){
