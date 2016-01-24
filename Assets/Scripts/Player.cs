@@ -66,6 +66,9 @@ public class Player : MonoBehaviour {
         {
             weaponReady = true;
         }
+
+        if(Input.GetButton("QuestLog"))
+            StartCoroutine(QuestLog());
 	}
 
     void FixedUpdate(){
@@ -145,9 +148,17 @@ public class Player : MonoBehaviour {
         aiming = false;
     }
 
+    IEnumerator QuestLog(){
+        var qmenu = GameObject.Find("QuestMenu");
+
+        while (Input.GetButton("QuestLog")){
+            qmenu.GetComponent<Canvas>().enabled = true;
+            yield return null;
+        }
+        qmenu.GetComponent<Canvas>().enabled = false;
+    }
+
     public void SetControllable(bool lol){
         controllable = lol;
     }
-
-
 }
