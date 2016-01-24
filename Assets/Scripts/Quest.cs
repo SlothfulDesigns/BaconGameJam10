@@ -108,6 +108,10 @@ public class Quest {
     {
         this.completed = true;
         CompletedPopup();
+
+        if (this.completesLevel)
+        {
+        }
     }
 
     void CompletedPopup(){

@@ -29,6 +29,11 @@ public class Level1 : Level {
         q4.AddObjective(new Objective("fryBacon"));
         quests.Add(q4);
 
+        var q5 = new Quest("car", "Get to work", false);
+        q5.completesLevel = true;
+        q5.AddObjective(new Objective("getInCar"));
+        quests.Add(q5);
+
         player = FindObjectOfType<Player>();
         TrapPlayer();
 	}
