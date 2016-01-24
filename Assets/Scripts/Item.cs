@@ -3,12 +3,14 @@ using System.Collections;
 
 public class Item : MonoBehaviour {
 
-     bool flying, broken;
+    bool flying, broken;
+    Animator animator;
 
 	// Use this for initialization
 	void Start () {
         flying = false;
         broken = false;
+        animator = GetComponent<Animator>();
 	}
 	
 	// Update is called once per frame
@@ -24,8 +26,13 @@ public class Item : MonoBehaviour {
     {
         //already shot
         if(broken) return;
-
         broken = true;
+
+        if (animator != null)
+        {
+            animator.SetBool("broken", true);
+        }
+
         Debug.Log(this.name + " shot to shit");
     }
 
