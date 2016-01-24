@@ -3,8 +3,10 @@ using System.Collections;
 
 public class Item : MonoBehaviour {
 
-    bool flying, broken;
-    Animator animator;
+    private bool flying, broken;
+    public bool noBrokenRigidbody;
+    private Animator mAnimator;
+    private Rigidbody2D mRigidbody;
 
 	// Use this for initialization
 	public void Start () {
@@ -13,7 +15,12 @@ public class Item : MonoBehaviour {
 
         if (GetComponent<Animator>() != null)
         {
-            animator = GetComponent<Animator>();
+            mAnimator = GetComponent<Animator>();
+        }
+
+        if (GetComponent<Rigidbody2D>() != null)
+        {
+            mRigidbody = GetComponent<Rigidbody2D>();
         }
 	}
 	
@@ -32,9 +39,14 @@ public class Item : MonoBehaviour {
         if(broken) return;
         broken = true;
 
-        if (animator != null)
+        if (mAnimator != null)
         {
-            animator.SetBool("broken", true);
+            mAnimator.SetBool("broken", true);
+        }
+
+        if (HasRigidBody() && noBrokenRigidbody)
+        {
+            mRigidbody.simulated = false;
         }
 
         Debug.Log(this.name + " shot to shit");
@@ -47,10 +59,18 @@ public class Item : MonoBehaviour {
     }
 
     public bool HasAnimator(){
-        return animator != null;
+        return mAnimator != null;
     }
 
     public Animator GetAnimator(){
-        return this.animator;
+        return this.mAnimator;
+    }
+
+    public bool HasRigidBody(){
+        return mRigidbody != null;
+    }
+
+    public Rigidbody2D GetRigidBody(){
+        return this.mRigidbody;
     }
 }
