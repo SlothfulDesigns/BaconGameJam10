@@ -10,7 +10,11 @@ public class Item : MonoBehaviour {
 	public void Start () {
         flying = false;
         broken = false;
-        animator = GetComponent<Animator>();
+
+        if (GetComponent<Animator>() != null)
+        {
+            animator = GetComponent<Animator>();
+        }
 	}
 	
 	// Update is called once per frame
@@ -40,6 +44,10 @@ public class Item : MonoBehaviour {
     {
         //while flying, too ez otherwise
         if(!flying) return;
+    }
+
+    public bool HasAnimator(){
+        return animator != null;
     }
 
     public Animator GetAnimator(){

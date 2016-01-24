@@ -89,22 +89,24 @@ public class Player : MonoBehaviour {
         var rb = projectile.GetComponent<Rigidbody2D>();
         rb.simulated = true;
 
-        rb.AddForce(aimDirection * 2000);
+        rb.AddForce(aimDirection * 500);
 
         if (aiming)
         {
-            GetComponent<Rigidbody2D>().AddForce(-aimDirection * 100);
+            GetComponent<Rigidbody2D>().AddForce(-aimDirection * 25);
         }
         else
         {
-            var scatter = Mathf.Sin(Time.frameCount / 2) * GetRandom();
-            rb.AddForce(new Vector2(scatter, scatter) * 500);
-            GetComponent<Rigidbody2D>().AddForce(-aimDirection * 200);
+            //todo: actual sideways force
+            var sidewaysForce = new Vector2(GetRandom(), GetRandom());
+
+            rb.AddForce(sidewaysForce * 100);
+            GetComponent<Rigidbody2D>().AddForce(-aimDirection * 50);
         }
     }
 
     private static float GetRandom(){
-        return Random.Range(0.1f, 1.0f);
+        return Random.Range(-0.1f, 1.0f);
     }
 
     IEnumerator Aim()

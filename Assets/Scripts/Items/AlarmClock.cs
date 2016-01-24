@@ -19,7 +19,10 @@ public class AlarmClock : Item {
                 Debug.Log("beep beep");
                 lastBeep = Time.fixedTime;
             }
-            base.GetAnimator().SetBool("ringing", ringing);
+            if (base.HasAnimator())
+            {
+                base.GetAnimator().SetBool("ringing", ringing);
+            }
         }
 	}
 
