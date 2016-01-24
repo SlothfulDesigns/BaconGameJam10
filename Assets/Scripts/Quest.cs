@@ -40,6 +40,10 @@ public class Quest {
         return null;
     }
 
+    public bool HasObjective(string id){
+        return GetObjective(id) != null;
+    }
+
     public Objective GetObjective(int number)
     {
         if (ordered)
