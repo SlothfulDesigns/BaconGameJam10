@@ -5,23 +5,11 @@ public class Item : MonoBehaviour {
 
     private bool flying, broken;
     public bool noBrokenRigidbody;
-    private Animator mAnimator;
-    private Rigidbody2D mRigidbody;
 
 	// Use this for initialization
 	public void Start () {
         flying = false;
         broken = false;
-
-        if (GetComponent<Animator>() != null)
-        {
-            mAnimator = GetComponent<Animator>();
-        }
-
-        if (GetComponent<Rigidbody2D>() != null)
-        {
-            mRigidbody = GetComponent<Rigidbody2D>();
-        }
 	}
 	
 	// Update is called once per frame
@@ -39,14 +27,14 @@ public class Item : MonoBehaviour {
         if(broken) return;
         broken = true;
 
-        if (mAnimator != null)
+        if (GetComponent<Animator>() != null)
         {
-            mAnimator.SetBool("broken", true);
+            GetComponent<Animator>().SetBool("broken", true);
         }
 
-        if (HasRigidBody() && noBrokenRigidbody)
+        if (GetComponent<Rigidbody2D>() != null  && noBrokenRigidbody)
         {
-            mRigidbody.simulated = false;
+            GetComponent<Rigidbody2D>().simulated = false;
         }
 
         Debug.Log(this.name + " shot to shit");
@@ -56,21 +44,5 @@ public class Item : MonoBehaviour {
     {
         //while flying, too ez otherwise
         if(!flying) return;
-    }
-
-    public bool HasAnimator(){
-        return mAnimator != null;
-    }
-
-    public Animator GetAnimator(){
-        return this.mAnimator;
-    }
-
-    public bool HasRigidBody(){
-        return mRigidbody != null;
-    }
-
-    public Rigidbody2D GetRigidBody(){
-        return this.mRigidbody;
     }
 }
