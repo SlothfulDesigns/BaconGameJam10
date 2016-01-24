@@ -1,9 +1,11 @@
 fileFormatVersion: 2
 guid: e05ddba4e0188194488e61d362d37a7c
-timeCreated: 1453536409
+timeCreated: 1453638452
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: fridge_0
+    21300002: fridge_1
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -29,8 +31,8 @@ TextureImporter:
   textureFormat: -1
   maxTextureSize: 2048
   textureSettings:
-    filterMode: -1
-    aniso: -1
+    filterMode: 0
+    aniso: 16
     mipBias: -1
     wrapMode: 1
   nPOTScale: 0
@@ -38,7 +40,7 @@ TextureImporter:
   rGBM: 0
   compressionQuality: 50
   allowsAlphaSplitting: 0
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -49,7 +51,29 @@ TextureImporter:
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: fridge_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 33
+        width: 25
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fridge_1
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 32
+        width: 25
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     outline: []
   spritePackingTag: 
   userData: 
