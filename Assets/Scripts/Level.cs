@@ -21,6 +21,21 @@ public class Level : MonoBehaviour {
         }
 	}
 
+    void Update(){
+    }
+
+    public bool IsQuestComplete(string id)
+    {
+        foreach (var q in quests)
+        {
+            if (q.name != "bed")
+                continue;
+
+            return q.IsCompleted();
+        }
+        return false;
+    }
+
     public void CompleteObjective(string id)
     {
         foreach (var q in quests)

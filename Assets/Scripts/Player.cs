@@ -6,7 +6,7 @@ public class Player : MonoBehaviour {
     public float moveSpeed;
 
     private Vector2 movement, position, mousePosition, aimDirection;
-    private bool aiming, weaponReady;
+    private bool aiming, weaponReady, outOfBed, controllable;
 
     public GameObject bullet;
 
@@ -27,6 +27,7 @@ public class Player : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
+        controllable = true;
         position.Set(transform.position.x, transform.position.y);
 
         var mouse = Camera.main.ScreenToWorldPoint(Input.mousePosition);
@@ -34,7 +35,7 @@ public class Player : MonoBehaviour {
         mousePosition.Set(mouse.x, mouse.y);
         aimDirection = (mousePosition - position).normalized;
 
-        HandleMovement();
+        if(controllable) HandleMovement();
 
         if (Input.GetButton("Aim"))
             StartCoroutine(Aim());
@@ -125,6 +126,10 @@ public class Player : MonoBehaviour {
             }
         }
         aiming = false;
+    }
+
+    public void SetControllable(bool lol){
+        controllable = lol;
     }
 
 

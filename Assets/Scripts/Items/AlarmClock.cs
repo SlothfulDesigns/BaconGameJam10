@@ -15,10 +15,6 @@ public class AlarmClock : Item {
 	void Update () {
         if (!IsBroken())
         {
-            if((Time.fixedTime - lastBeep) > 1.0){
-                Debug.Log("beep beep");
-                lastBeep = Time.fixedTime;
-            }
             if (base.GetComponent<Animator>() != null)
             {
                 base.GetComponent<Animator>().SetBool("ringing", ringing);
