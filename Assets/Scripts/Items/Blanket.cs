@@ -3,12 +3,6 @@ using System.Collections;
 
 public class Blanket : Item {
 
-    BoxCollider2D mCollider;
-	// Use this for initialization
-	void Start () {
-        mCollider = GetComponent<BoxCollider2D>();
-	}
-	
 	// Update is called once per frame
 	void Update () {
 	

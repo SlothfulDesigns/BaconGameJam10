@@ -21,6 +21,14 @@ public class Level1 : Level {
         q2.AddObjective(new Objective("shower"));
         quests.Add(q2);
 
+        var q4 = new Quest("bacon", "Bakin' bacon pancakes", false);
+        q4.AddObjective(new Objective("shootFridge"));
+        q4.AddObjective(new Objective("getBacon"));
+        q4.AddObjective(new Objective("putBaconOnOven"));
+        q4.AddObjective(new Objective("heatOven"));
+        q4.AddObjective(new Objective("fryBacon"));
+        quests.Add(q4);
+
         player = FindObjectOfType<Player>();
         TrapPlayer();
 	}

@@ -2,7 +2,7 @@
 using UnityEngine;
 
 public class Quest {
-    private bool completed, started, failed, ordered = false;
+    private bool completed, ordered = false;
     private int objectivesCompleted = 0;
 
     public bool completesLevel = false;
@@ -23,6 +23,10 @@ public class Quest {
 
     public void AddObjective(Objective objective)
     {
+        if (ordered && objectives.Count == 0)
+        {
+            objective.orderNumber = 1;
+        }
         if (ordered && objectives.Count > 0 && objective.orderNumber == 0)
         {
             objective.orderNumber = objectives.Count + 1;
@@ -68,12 +72,11 @@ public class Quest {
                 return false;
 
             //quest is ordered and this isn't the first objective
-            if (ordered && objective.orderNumber > 0)
+            if (ordered && objective.orderNumber > 1)
             {
                 int previous = objective.orderNumber - 1;
                 if (!GetObjective(previous).IsCompleted())
                 {
-                    FailQuest("Previous objective was incomplete.");
                     return false;
                 }
             }
@@ -95,18 +98,6 @@ public class Quest {
     {
         this.completed = true;
         Debug.Log("Quest completed: " + id);
-    }
-
-    public void StartQuest() 
-    {
-        this.started = true;
-        Debug.Log("Quest started: " + id);
-    }
-
-    public void FailQuest(string reason) 
-    {
-        this.failed = true;
-        Debug.Log("Quest failed: " + id + ". " + reason);
     }
 }
 

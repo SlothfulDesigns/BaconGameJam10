@@ -3,13 +3,7 @@ using System.Collections;
 
 public class AlarmClock : Item {
 
-    private float lastBeep;
     public bool ringing;
-	// Use this for initialization
-	void Start () {
-        base.Start();
-        lastBeep = Time.fixedTime;
-	}
 	
 	// Update is called once per frame
 	void Update () {
