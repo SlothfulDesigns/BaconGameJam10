@@ -25,6 +25,8 @@ public class Level : MonoBehaviour {
     {
         foreach (var q in quests)
         {
+            if (!q.HasObjective(id)) continue;
+
             if (q.CompleteObjective(id))
             {
                 if (q.IsCompleted())
