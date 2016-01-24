@@ -1,0 +1,697 @@
+fileFormatVersion: 2
+guid: f144db32c6a2f654bac6e39b3c6cff6c
+timeCreated: 1453630140
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: alarm-clock-all_0
+    21300002: alarm-clock-all_1
+    21300004: alarm-clock-all_2
+    21300006: alarm-clock-all_3
+    21300008: alarm-clock-all_4
+    21300010: alarm-clock-all_5
+    21300012: alarm-clock-all_6
+    21300014: alarm-clock-all_7
+    21300016: alarm-clock-all_8
+    21300018: alarm-clock-all_9
+    21300020: alarm-clock-all_10
+    21300022: alarm-clock-all_11
+    21300024: alarm-clock-all_12
+    21300026: alarm-clock-all_13
+    21300028: alarm-clock-all_14
+    21300030: alarm-clock-all_15
+    21300032: alarm-clock-all_16
+    21300034: alarm-clock-all_17
+    21300036: alarm-clock-all_18
+    21300038: alarm-clock-all_19
+    21300040: alarm-clock-all_20
+    21300042: alarm-clock-all_21
+    21300044: alarm-clock-all_22
+    21300046: alarm-clock-all_23
+    21300048: alarm-clock-all_24
+    21300050: alarm-clock-all_25
+    21300052: alarm-clock-all_26
+    21300054: alarm-clock-all_27
+    21300056: alarm-clock-all_28
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: alarm-clock-all_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16, y: -13}
+        - {x: 16, y: 16}
+        - {x: -14, y: 16}
+        - {x: -16, y: 14}
+        - {x: -16, y: 4}
+        - {x: -13, y: -16}
+        - {x: 14, y: -16}
+    - name: alarm-clock-all_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16, y: -14}
+        - {x: 16, y: 16}
+        - {x: -13, y: 16}
+        - {x: -15, y: 14}
+        - {x: -15, y: 4}
+        - {x: -12, y: -16}
+        - {x: 15, y: -16}
+    - name: alarm-clock-all_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14, y: 16}
+        - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 10, y: -16}
+        - {x: 11, y: -15}
+        - {x: 14, y: 7}
+    - name: alarm-clock-all_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 16}
+        - {x: -14, y: 3}
+        - {x: -12, y: -16}
+        - {x: 15, y: -16}
+        - {x: 16, y: -13}
+        - {x: 16, y: 16}
+    - name: alarm-clock-all_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 16}
+        - {x: -14, y: 8}
+        - {x: -10, y: -14}
+        - {x: -8, y: -16}
+        - {x: 15, y: -16}
+        - {x: 16, y: -13}
+        - {x: 16, y: 16}
+    - name: alarm-clock-all_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14, y: -13}
+        - {x: 14, y: 16}
+        - {x: -16, y: 16}
+        - {x: -16, y: -13}
+        - {x: -14, y: -16}
+        - {x: 12, y: -16}
+    - name: alarm-clock-all_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 16}
+        - {x: -15, y: -2}
+        - {x: -14, y: -16}
+        - {x: 14, y: -16}
+        - {x: 16, y: -10}
+        - {x: 16, y: 16}
+    - name: alarm-clock-all_7
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 16}
+        - {x: -14, y: 3}
+        - {x: -12, y: -16}
+        - {x: 15, y: -16}
+        - {x: 16, y: -13}
+        - {x: 16, y: 16}
+    - name: alarm-clock-all_8
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 16}
+        - {x: -15, y: -2}
+        - {x: -14, y: -16}
+        - {x: 14, y: -16}
+        - {x: 16, y: -10}
+        - {x: 16, y: 16}
+    - name: alarm-clock-all_9
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -12}
+        - {x: -15, y: -16}
+        - {x: 13, y: -16}
+        - {x: 15, y: -8}
+        - {x: 15, y: 16}
+    - name: alarm-clock-all_10
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14, y: -13}
+        - {x: 14, y: 16}
+        - {x: -16, y: 16}
+        - {x: -16, y: -13}
+        - {x: -14, y: -16}
+        - {x: 12, y: -16}
+    - name: alarm-clock-all_11
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -2}
+        - {x: -15, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: alarm-clock-all_12
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 16}
+        - {x: -14, y: -12}
+        - {x: -11, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: alarm-clock-all_13
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16, y: -13}
+        - {x: 16, y: 16}
+        - {x: -14, y: 16}
+        - {x: -16, y: 14}
+        - {x: -16, y: 4}
+        - {x: -13, y: -16}
+        - {x: 14, y: -16}
+    - name: alarm-clock-all_14
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: alarm-clock-all_15
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: -9}
+        - {x: 16, y: -4}
+        - {x: 16, y: 4}
+        - {x: 12, y: 11}
+        - {x: -12, y: 11}
+        - {x: -16, y: 8}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: -12}
+      - - {x: 13, y: 13}
+        - {x: 15, y: 11}
+        - {x: 16, y: 11}
+        - {x: 16, y: 16}
+        - {x: 14, y: 16}
+    - name: alarm-clock-all_16
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 6}
+        - {x: -16, y: 3}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: -2}
+        - {x: 9, y: 6}
+      - - {x: 13, y: 13}
+        - {x: 15, y: 11}
+        - {x: 16, y: 11}
+        - {x: 16, y: 16}
+        - {x: 14, y: 16}
+    - name: alarm-clock-all_17
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 3}
+        - {x: -16, y: -3}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: -5}
+        - {x: 7, y: 3}
+      - - {x: 13, y: 13}
+        - {x: 15, y: 11}
+        - {x: 16, y: 11}
+        - {x: 16, y: 16}
+        - {x: 14, y: 16}
+    - name: alarm-clock-all_18
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9, y: 0}
+        - {x: 3, y: 4}
+        - {x: -3, y: 4}
+        - {x: -6, y: 3}
+        - {x: -15, y: -4}
+        - {x: -16, y: -13}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: -9}
+      - - {x: 13, y: 13}
+        - {x: 15, y: 11}
+        - {x: 16, y: 11}
+        - {x: 16, y: 16}
+        - {x: 14, y: 16}
+    - name: alarm-clock-all_19
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 2}
+        - {x: -16, y: -6}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: -9}
+        - {x: 11, y: 2}
+      - - {x: -2, y: 5}
+        - {x: -2, y: 3}
+        - {x: 1, y: 0}
+        - {x: 4, y: 2}
+        - {x: 4, y: 5}
+        - {x: 3, y: 8}
+        - {x: 1, y: 8}
+      - - {x: 13, y: 13}
+        - {x: 15, y: 11}
+        - {x: 16, y: 11}
+        - {x: 16, y: 16}
+        - {x: 14, y: 16}
+    - name: alarm-clock-all_20
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 2}
+        - {x: -16, y: -6}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: -9}
+        - {x: 11, y: 2}
+      - - {x: -2, y: 3}
+        - {x: 0, y: 1}
+        - {x: 3, y: 2}
+        - {x: 4, y: 7}
+        - {x: 2, y: 9}
+        - {x: -1, y: 8}
+      - - {x: 13, y: 13}
+        - {x: 15, y: 11}
+        - {x: 16, y: 11}
+        - {x: 16, y: 16}
+        - {x: 14, y: 16}
+    - name: alarm-clock-all_21
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 2}
+        - {x: -16, y: -6}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: -9}
+        - {x: 11, y: 2}
+      - - {x: -2, y: 4}
+        - {x: -1, y: 2}
+        - {x: 1, y: 2}
+        - {x: 5, y: 4}
+        - {x: 5, y: 8}
+        - {x: 2, y: 10}
+        - {x: -1, y: 8}
+      - - {x: 13, y: 13}
+        - {x: 15, y: 11}
+        - {x: 16, y: 11}
+        - {x: 16, y: 16}
+        - {x: 14, y: 16}
+    - name: alarm-clock-all_22
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 2}
+        - {x: -16, y: -6}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: -9}
+        - {x: 11, y: 2}
+      - - {x: -1, y: 5}
+        - {x: 1, y: 3}
+        - {x: 4, y: 4}
+        - {x: 5, y: 9}
+        - {x: 3, y: 11}
+        - {x: 0, y: 10}
+      - - {x: 13, y: 13}
+        - {x: 15, y: 11}
+        - {x: 16, y: 11}
+        - {x: 16, y: 16}
+        - {x: 14, y: 16}
+    - name: alarm-clock-all_23
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 2}
+        - {x: -16, y: -6}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: -9}
+        - {x: 11, y: 2}
+      - - {x: -2, y: 10}
+        - {x: 2, y: 5}
+        - {x: 5, y: 6}
+        - {x: 5, y: 9}
+        - {x: 1, y: 13}
+        - {x: -1, y: 13}
+      - - {x: 13, y: 13}
+        - {x: 15, y: 11}
+        - {x: 16, y: 11}
+        - {x: 16, y: 16}
+        - {x: 14, y: 16}
+    - name: alarm-clock-all_24
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 2}
+        - {x: -16, y: -6}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: -9}
+        - {x: 11, y: 2}
+      - - {x: -2, y: 10}
+        - {x: 2, y: 6}
+        - {x: 5, y: 7}
+        - {x: 5, y: 9}
+        - {x: 1, y: 14}
+        - {x: -2, y: 13}
+      - - {x: 13, y: 13}
+        - {x: 15, y: 11}
+        - {x: 16, y: 11}
+        - {x: 16, y: 16}
+        - {x: 14, y: 16}
+    - name: alarm-clock-all_25
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 2}
+        - {x: -16, y: -6}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: -9}
+        - {x: 11, y: 2}
+      - - {x: -2, y: 10}
+        - {x: 0, y: 8}
+        - {x: 3, y: 9}
+        - {x: 4, y: 13}
+        - {x: 1, y: 15}
+        - {x: -2, y: 12}
+      - - {x: 13, y: 13}
+        - {x: 15, y: 11}
+        - {x: 16, y: 11}
+        - {x: 16, y: 16}
+        - {x: 14, y: 16}
+    - name: alarm-clock-all_26
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 2}
+        - {x: -16, y: -6}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: -9}
+        - {x: 11, y: 2}
+      - - {x: -1, y: 13}
+        - {x: -1, y: 12}
+        - {x: 1, y: 10}
+        - {x: 2, y: 10}
+        - {x: 5, y: 13}
+        - {x: 5, y: 15}
+        - {x: 2, y: 16}
+    - name: alarm-clock-all_27
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 2}
+        - {x: -16, y: -6}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: -9}
+        - {x: 11, y: 2}
+      - - {x: 0, y: 13}
+        - {x: 2, y: 11}
+        - {x: 5, y: 12}
+        - {x: 5, y: 15}
+        - {x: 4, y: 16}
+        - {x: 0, y: 16}
+    - name: alarm-clock-all_28
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 2}
+        - {x: -16, y: -6}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: -9}
+        - {x: 11, y: 2}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
