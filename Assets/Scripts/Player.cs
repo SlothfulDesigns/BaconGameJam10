@@ -10,12 +10,18 @@ public class Player : MonoBehaviour {
 
     public GameObject bullet;
 
+    private Animator animator;
+    private SpriteRenderer sprite;
+
 	// Use this for initialization
 	void Start () {
         bullet = Resources.Load("Bullet") as GameObject;
         position = new Vector2(transform.position.x + 1f, transform.position.y + 1f);
         mousePosition = new Vector2();
         weaponReady = true;
+
+        animator = this.GetComponent<Animator>();
+        sprite = this.GetComponent<SpriteRenderer>();
 	}
 	
 	// Update is called once per frame
@@ -53,6 +59,22 @@ public class Player : MonoBehaviour {
     {
         var h = Input.GetAxisRaw("Horizontal");
         var v = Input.GetAxisRaw("Vertical");
+
+        if (h != 0 || v != 0)
+        {
+            animator.SetBool("walking", true);
+        } else {
+            animator.SetBool("walking", false);
+        }
+
+        if (h < 0)
+        {
+            sprite.flipX = true;
+        }
+        if(h > 0)
+        {
+            sprite.flipX = false;
+        }
 
         movement = new Vector2(h, v) * moveSpeed;
     }
