@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Quest {
     private bool completed, ordered = false;
@@ -8,6 +9,13 @@ public class Quest {
     public bool completesLevel = false;
     public string id, name, description;
     public List<Objective> objectives;
+    public Canvas questCompleted;
+
+    void Start()
+    {
+        questCompleted = questCompleted.GetComponent<Canvas> ();
+        questCompleted.enabled = false;
+    }
 
     public Quest(string id, string name, bool ordered){
         this.id = id;
@@ -97,6 +105,7 @@ public class Quest {
     public void CompleteQuest() 
     {
         this.completed = true;
+        questCompleted.enabled = true;
         Debug.Log("Quest completed: " + id);
     }
 }
