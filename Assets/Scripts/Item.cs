@@ -7,7 +7,7 @@ public class Item : MonoBehaviour {
     Animator animator;
 
 	// Use this for initialization
-	void Start () {
+	public void Start () {
         flying = false;
         broken = false;
         animator = GetComponent<Animator>();
@@ -40,5 +40,9 @@ public class Item : MonoBehaviour {
     {
         //while flying, too ez otherwise
         if(!flying) return;
+    }
+
+    public Animator GetAnimator(){
+        return this.animator;
     }
 }

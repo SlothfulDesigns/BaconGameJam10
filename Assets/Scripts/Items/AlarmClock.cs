@@ -4,8 +4,10 @@ using System.Collections;
 public class AlarmClock : Item {
 
     private float lastBeep;
+    public bool ringing;
 	// Use this for initialization
 	void Start () {
+        base.Start();
         lastBeep = Time.fixedTime;
 	}
 	
@@ -17,6 +19,7 @@ public class AlarmClock : Item {
                 Debug.Log("beep beep");
                 lastBeep = Time.fixedTime;
             }
+            base.GetAnimator().SetBool("ringing", ringing);
         }
 	}
 
