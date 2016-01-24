@@ -1,9 +1,25 @@
 fileFormatVersion: 2
 guid: ec3effc68ba1356419f4a6c5ab2dca94
-timeCreated: 1453538388
+timeCreated: 1453593463
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: sink_0
+    21300002: sink_1
+    21300004: sink_2
+    21300006: sink_3
+    21300008: sink_4
+    21300010: sink_5
+    21300012: sink_6
+    21300014: sink_7
+    21300016: sink_8
+    21300018: sink_9
+    21300020: sink_10
+    21300022: sink_11
+    21300024: sink_12
+    21300026: sink_13
+    21300028: sink_14
+    21300030: sink_15
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -30,7 +46,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     filterMode: -1
-    aniso: -1
+    aniso: 16
     mipBias: -1
     wrapMode: 1
   nPOTScale: 0
@@ -38,7 +54,7 @@ TextureImporter:
   rGBM: 0
   compressionQuality: 50
   allowsAlphaSplitting: 0
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -49,7 +65,295 @@ TextureImporter:
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: sink_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 15}
+        - {x: -16, y: -4}
+        - {x: -14, y: -11}
+        - {x: 8, y: -11}
+        - {x: 14, y: -5}
+        - {x: 15, y: -2}
+        - {x: 15, y: 15}
+    - name: sink_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 15}
+        - {x: -16, y: -4}
+        - {x: -14, y: -11}
+        - {x: 8, y: -11}
+        - {x: 14, y: -5}
+        - {x: 15, y: -2}
+        - {x: 15, y: 15}
+    - name: sink_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 15}
+        - {x: -16, y: -4}
+        - {x: -14, y: -11}
+        - {x: 8, y: -11}
+        - {x: 14, y: -5}
+        - {x: 15, y: -2}
+        - {x: 15, y: 15}
+    - name: sink_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 15}
+        - {x: -16, y: -4}
+        - {x: -14, y: -11}
+        - {x: 8, y: -11}
+        - {x: 14, y: -5}
+        - {x: 15, y: -2}
+        - {x: 15, y: 15}
+    - name: sink_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 15}
+        - {x: -16, y: -4}
+        - {x: -14, y: -11}
+        - {x: 8, y: -11}
+        - {x: 14, y: -5}
+        - {x: 15, y: -2}
+        - {x: 15, y: 15}
+    - name: sink_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 15}
+        - {x: -16, y: -4}
+        - {x: -14, y: -11}
+        - {x: 8, y: -11}
+        - {x: 14, y: -5}
+        - {x: 15, y: -2}
+        - {x: 15, y: 15}
+    - name: sink_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 15}
+        - {x: -16, y: -4}
+        - {x: -14, y: -11}
+        - {x: 8, y: -11}
+        - {x: 14, y: -5}
+        - {x: 15, y: -2}
+        - {x: 15, y: 15}
+    - name: sink_7
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 15}
+        - {x: -16, y: -4}
+        - {x: -14, y: -11}
+        - {x: 8, y: -11}
+        - {x: 14, y: -5}
+        - {x: 15, y: -2}
+        - {x: 15, y: 15}
+    - name: sink_8
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 15}
+        - {x: -16, y: -4}
+        - {x: -14, y: -11}
+        - {x: 8, y: -11}
+        - {x: 14, y: -5}
+        - {x: 15, y: -2}
+        - {x: 15, y: 15}
+    - name: sink_9
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 15}
+        - {x: -16, y: -4}
+        - {x: -14, y: -11}
+        - {x: 8, y: -11}
+        - {x: 14, y: -5}
+        - {x: 15, y: -2}
+        - {x: 15, y: 15}
+    - name: sink_10
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 15}
+        - {x: -16, y: -4}
+        - {x: -14, y: -11}
+        - {x: 8, y: -11}
+        - {x: 14, y: -5}
+        - {x: 15, y: -2}
+        - {x: 15, y: 15}
+    - name: sink_11
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 15}
+        - {x: -16, y: -4}
+        - {x: -14, y: -11}
+        - {x: 8, y: -11}
+        - {x: 14, y: -5}
+        - {x: 15, y: -2}
+        - {x: 15, y: 15}
+    - name: sink_12
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 15}
+        - {x: -16, y: -4}
+        - {x: -14, y: -11}
+        - {x: 8, y: -11}
+        - {x: 14, y: -5}
+        - {x: 15, y: -2}
+        - {x: 15, y: 15}
+    - name: sink_13
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 15}
+        - {x: -16, y: -4}
+        - {x: -14, y: -11}
+        - {x: 8, y: -11}
+        - {x: 14, y: -5}
+        - {x: 15, y: -2}
+        - {x: 15, y: 15}
+    - name: sink_14
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 15}
+        - {x: -16, y: -4}
+        - {x: -14, y: -11}
+        - {x: 8, y: -11}
+        - {x: 14, y: -5}
+        - {x: 15, y: -2}
+        - {x: 15, y: 15}
+    - name: sink_15
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 15}
+        - {x: -16, y: -4}
+        - {x: -14, y: -11}
+        - {x: 8, y: -11}
+        - {x: 14, y: -5}
+        - {x: 15, y: -2}
+        - {x: 15, y: 15}
     outline: []
   spritePackingTag: 
   userData: 

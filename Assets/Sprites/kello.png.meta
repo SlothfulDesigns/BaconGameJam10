@@ -1,9 +1,38 @@
 fileFormatVersion: 2
 guid: 90e1f0eb0837e8742a4213cd88efd947
-timeCreated: 1453538388
+timeCreated: 1453593536
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: kello_0
+    21300002: kello_1
+    21300004: kello_2
+    21300006: kello_3
+    21300008: kello_4
+    21300010: kello_5
+    21300012: kello_6
+    21300014: kello_7
+    21300016: kello_8
+    21300018: kello_9
+    21300020: kello_10
+    21300022: kello_11
+    21300024: kello_12
+    21300026: kello_13
+    21300028: kello_14
+    21300030: kello_15
+    21300032: kello_16
+    21300034: kello_17
+    21300036: kello_18
+    21300038: kello_19
+    21300040: kello_20
+    21300042: kello_21
+    21300044: kello_22
+    21300046: kello_23
+    21300048: kello_24
+    21300050: kello_25
+    21300052: kello_26
+    21300054: kello_27
+    21300056: kello_28
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -29,8 +58,8 @@ TextureImporter:
   textureFormat: -1
   maxTextureSize: 2048
   textureSettings:
-    filterMode: -1
-    aniso: -1
+    filterMode: 0
+    aniso: 16
     mipBias: -1
     wrapMode: 1
   nPOTScale: 0
@@ -38,7 +67,7 @@ TextureImporter:
   rGBM: 0
   compressionQuality: 50
   allowsAlphaSplitting: 0
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -49,7 +78,576 @@ TextureImporter:
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: kello_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 10}
+        - {x: 9, y: 16}
+        - {x: -9, y: 16}
+        - {x: -12, y: 13}
+        - {x: -12, y: -16}
+        - {x: 13, y: -16}
+        - {x: 13, y: -8}
+        - {x: 12, y: -5}
+        - {x: 13, y: 6}
+    - name: kello_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 10}
+        - {x: 9, y: 16}
+        - {x: -9, y: 16}
+        - {x: -12, y: 13}
+        - {x: -12, y: -16}
+        - {x: 13, y: -16}
+        - {x: 13, y: -8}
+        - {x: 12, y: -5}
+        - {x: 13, y: 6}
+    - name: kello_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 10}
+        - {x: 9, y: 16}
+        - {x: -9, y: 16}
+        - {x: -12, y: 13}
+        - {x: -12, y: -16}
+        - {x: 13, y: -16}
+        - {x: 13, y: -8}
+        - {x: 12, y: -5}
+        - {x: 13, y: 6}
+    - name: kello_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 10}
+        - {x: 9, y: 16}
+        - {x: -9, y: 16}
+        - {x: -12, y: 13}
+        - {x: -12, y: -16}
+        - {x: 13, y: -16}
+        - {x: 13, y: -8}
+        - {x: 12, y: -5}
+        - {x: 13, y: 6}
+    - name: kello_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 10}
+        - {x: 9, y: 16}
+        - {x: -9, y: 16}
+        - {x: -12, y: 13}
+        - {x: -12, y: -16}
+        - {x: 13, y: -16}
+        - {x: 13, y: -8}
+        - {x: 12, y: -5}
+        - {x: 13, y: 6}
+    - name: kello_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 10}
+        - {x: 9, y: 16}
+        - {x: -9, y: 16}
+        - {x: -12, y: 13}
+        - {x: -12, y: -16}
+        - {x: 13, y: -16}
+        - {x: 13, y: -8}
+        - {x: 12, y: -5}
+        - {x: 13, y: 6}
+    - name: kello_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 10}
+        - {x: 9, y: 16}
+        - {x: -9, y: 16}
+        - {x: -12, y: 13}
+        - {x: -12, y: -16}
+        - {x: 13, y: -16}
+        - {x: 13, y: -8}
+        - {x: 12, y: -5}
+        - {x: 13, y: 6}
+    - name: kello_7
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 10}
+        - {x: 9, y: 16}
+        - {x: -9, y: 16}
+        - {x: -12, y: 13}
+        - {x: -12, y: -16}
+        - {x: 13, y: -16}
+        - {x: 13, y: -8}
+        - {x: 12, y: -5}
+        - {x: 13, y: 6}
+    - name: kello_8
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 10}
+        - {x: 9, y: 16}
+        - {x: -9, y: 16}
+        - {x: -12, y: 13}
+        - {x: -12, y: -16}
+        - {x: 13, y: -16}
+        - {x: 13, y: -8}
+        - {x: 12, y: -5}
+        - {x: 13, y: 6}
+    - name: kello_9
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 10}
+        - {x: 9, y: 16}
+        - {x: -9, y: 16}
+        - {x: -12, y: 13}
+        - {x: -12, y: -16}
+        - {x: 13, y: -16}
+        - {x: 13, y: -8}
+        - {x: 12, y: -5}
+        - {x: 13, y: 6}
+    - name: kello_10
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 10}
+        - {x: 9, y: 16}
+        - {x: -9, y: 16}
+        - {x: -12, y: 13}
+        - {x: -12, y: -16}
+        - {x: 13, y: -16}
+        - {x: 13, y: -8}
+        - {x: 12, y: -5}
+        - {x: 13, y: 6}
+    - name: kello_11
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 10}
+        - {x: 9, y: 16}
+        - {x: -9, y: 16}
+        - {x: -12, y: 13}
+        - {x: -12, y: -16}
+        - {x: 13, y: -16}
+        - {x: 13, y: -8}
+        - {x: 12, y: -5}
+        - {x: 13, y: 6}
+    - name: kello_12
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 10}
+        - {x: 9, y: 16}
+        - {x: -9, y: 16}
+        - {x: -12, y: 13}
+        - {x: -12, y: -16}
+        - {x: 13, y: -16}
+        - {x: 13, y: -8}
+        - {x: 12, y: -5}
+        - {x: 13, y: 6}
+    - name: kello_13
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 10}
+        - {x: 9, y: 16}
+        - {x: -9, y: 16}
+        - {x: -12, y: 13}
+        - {x: -12, y: -16}
+        - {x: 13, y: -16}
+        - {x: 13, y: -8}
+        - {x: 12, y: -5}
+        - {x: 13, y: 6}
+    - name: kello_14
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 10}
+        - {x: 9, y: 16}
+        - {x: -9, y: 16}
+        - {x: -12, y: 13}
+        - {x: -12, y: -16}
+        - {x: 13, y: -16}
+        - {x: 13, y: -8}
+        - {x: 12, y: -5}
+        - {x: 13, y: 6}
+    - name: kello_15
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 16}
+        - {x: -12, y: -16}
+        - {x: 13, y: -16}
+        - {x: 13, y: 11}
+        - {x: 8, y: 16}
+    - name: kello_16
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8, y: 16}
+        - {x: -12, y: 16}
+        - {x: -12, y: -16}
+        - {x: 13, y: -16}
+        - {x: 13, y: -8}
+        - {x: 12, y: -5}
+        - {x: 13, y: 9}
+      - - {x: -14, y: 7}
+        - {x: -11, y: 8}
+        - {x: -11, y: 11}
+        - {x: -14, y: 12}
+        - {x: -16, y: 10}
+    - name: kello_17
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 16}
+        - {x: -12, y: 11}
+        - {x: -12, y: 6}
+        - {x: -10, y: 0}
+        - {x: -12, y: -8}
+        - {x: -12, y: -16}
+        - {x: 13, y: -16}
+        - {x: 13, y: 14}
+        - {x: 8, y: 16}
+    - name: kello_18
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 10}
+        - {x: 9, y: 16}
+        - {x: -9, y: 16}
+        - {x: -12, y: 13}
+        - {x: -12, y: -16}
+        - {x: 13, y: -16}
+        - {x: 13, y: -8}
+        - {x: 12, y: -5}
+        - {x: 13, y: 6}
+    - name: kello_19
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 10}
+        - {x: 9, y: 16}
+        - {x: -9, y: 16}
+        - {x: -12, y: 13}
+        - {x: -12, y: -16}
+        - {x: 13, y: -16}
+        - {x: 13, y: -8}
+        - {x: 12, y: -5}
+        - {x: 13, y: 6}
+    - name: kello_20
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 16}
+        - {x: -11, y: 12}
+        - {x: -12, y: 0}
+        - {x: -12, y: -16}
+        - {x: 13, y: -16}
+        - {x: 13, y: 14}
+        - {x: 9, y: 16}
+    - name: kello_21
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 16}
+        - {x: -12, y: 12}
+        - {x: -12, y: -16}
+        - {x: 13, y: -16}
+        - {x: 13, y: 6}
+        - {x: 7, y: 16}
+    - name: kello_22
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 15}
+        - {x: -12, y: 9}
+        - {x: -12, y: -16}
+        - {x: 13, y: -16}
+        - {x: 13, y: -8}
+        - {x: 12, y: 8}
+        - {x: 5, y: 15}
+    - name: kello_23
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: 14}
+        - {x: -3, y: 14}
+        - {x: -9, y: 13}
+        - {x: -14, y: 2}
+        - {x: -14, y: -10}
+        - {x: -12, y: -16}
+        - {x: 14, y: -16}
+        - {x: 14, y: 2}
+    - name: kello_24
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: 13}
+        - {x: -9, y: 13}
+        - {x: -16, y: 5}
+        - {x: -16, y: -11}
+        - {x: -12, y: -16}
+        - {x: 15, y: -16}
+        - {x: 15, y: 3}
+        - {x: 10, y: 11}
+    - name: kello_25
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 12}
+        - {x: -16, y: 5}
+        - {x: -16, y: -14}
+        - {x: -14, y: -16}
+        - {x: 13, y: -16}
+        - {x: 13, y: 2}
+        - {x: 6, y: 12}
+      - - {x: 12, y: -1}
+        - {x: 14, y: -4}
+        - {x: 16, y: -3}
+        - {x: 16, y: 0}
+        - {x: 14, y: 1}
+    - name: kello_26
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: -10}
+        - {x: -12, y: -16}
+        - {x: 13, y: -16}
+        - {x: 13, y: -7}
+        - {x: 12, y: 8}
+        - {x: 4, y: 11}
+        - {x: -7, y: 11}
+        - {x: -14, y: 3}
+    - name: kello_27
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5, y: 7}
+        - {x: -5, y: 7}
+        - {x: -13, y: -2}
+        - {x: -13, y: -16}
+        - {x: 13, y: -16}
+        - {x: 13, y: -4}
+        - {x: 9, y: 4}
+    - name: kello_28
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 6}
+        - {x: -12, y: 2}
+        - {x: -13, y: -3}
+        - {x: -13, y: -12}
+        - {x: -12, y: -16}
+        - {x: 13, y: -16}
+        - {x: 13, y: -2}
+        - {x: 8, y: 6}
     outline: []
   spritePackingTag: 
   userData: 

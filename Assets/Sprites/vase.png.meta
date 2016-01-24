@@ -1,9 +1,18 @@
 fileFormatVersion: 2
 guid: 7a52c2ce8408b6e47a65037545e02b59
-timeCreated: 1453591864
+timeCreated: 1453593949
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: vase_0
+    21300002: vase_1
+    21300004: vase_2
+    21300006: vase_3
+    21300008: vase_4
+    21300010: vase_5
+    21300012: vase_6
+    21300014: vase_7
+    21300016: vase_8
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -29,8 +38,8 @@ TextureImporter:
   textureFormat: -1
   maxTextureSize: 2048
   textureSettings:
-    filterMode: -1
-    aniso: -1
+    filterMode: 0
+    aniso: 16
     mipBias: -1
     wrapMode: 1
   nPOTScale: 0
@@ -38,7 +47,7 @@ TextureImporter:
   rGBM: 0
   compressionQuality: 50
   allowsAlphaSplitting: 0
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -49,7 +58,212 @@ TextureImporter:
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: vase_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 16}
+        - {x: -11, y: 13}
+        - {x: -11, y: -9}
+        - {x: -8, y: -16}
+        - {x: 10, y: -16}
+        - {x: 10, y: 16}
+    - name: vase_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 16}
+        - {x: -11, y: 13}
+        - {x: -11, y: -9}
+        - {x: -8, y: -16}
+        - {x: 9, y: -16}
+        - {x: 12, y: -7}
+        - {x: 12, y: 16}
+    - name: vase_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 16}
+        - {x: -14, y: 14}
+        - {x: -14, y: 7}
+        - {x: -9, y: -16}
+        - {x: 11, y: -16}
+        - {x: 12, y: -7}
+        - {x: 12, y: 15}
+        - {x: 10, y: 16}
+      - - {x: 12, y: 10}
+        - {x: 15, y: 12}
+        - {x: 13, y: 16}
+        - {x: 8, y: 16}
+        - {x: 8, y: 15}
+    - name: vase_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 16}
+        - {x: -12, y: 13}
+        - {x: -12, y: -4}
+        - {x: -7, y: -16}
+        - {x: 10, y: -16}
+        - {x: 10, y: 12}
+        - {x: 3, y: 16}
+      - - {x: 12, y: -1}
+        - {x: 15, y: 0}
+        - {x: 15, y: 3}
+        - {x: 12, y: 4}
+        - {x: 10, y: 2}
+      - - {x: 13, y: 7}
+        - {x: 16, y: 8}
+        - {x: 16, y: 11}
+        - {x: 13, y: 12}
+        - {x: 11, y: 10}
+      - - {x: -12, y: 16}
+        - {x: -16, y: 13}
+        - {x: -15, y: 10}
+        - {x: -13, y: 10}
+        - {x: -8, y: 14}
+        - {x: -8, y: 16}
+    - name: vase_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 14}
+        - {x: -10, y: -11}
+        - {x: -9, y: -16}
+        - {x: 10, y: -16}
+        - {x: 10, y: 12}
+        - {x: 5, y: 14}
+      - - {x: -13, y: 2}
+        - {x: -10, y: 3}
+        - {x: -10, y: 6}
+        - {x: -13, y: 7}
+        - {x: -15, y: 5}
+      - - {x: -16, y: 9}
+        - {x: -15, y: 8}
+        - {x: -12, y: 9}
+        - {x: -12, y: 12}
+        - {x: -15, y: 13}
+        - {x: -16, y: 12}
+      - - {x: -11, y: 14}
+        - {x: -11, y: 16}
+        - {x: -16, y: 16}
+        - {x: -14, y: 13}
+      - - {x: 1, y: 14}
+        - {x: 1, y: 16}
+        - {x: -4, y: 16}
+        - {x: -2, y: 13}
+    - name: vase_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 15}
+        - {x: -10, y: -11}
+        - {x: -9, y: -16}
+        - {x: 9, y: -16}
+        - {x: 10, y: -14}
+        - {x: 10, y: 8}
+        - {x: 8, y: 15}
+    - name: vase_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9, y: 4}
+        - {x: 7, y: 10}
+        - {x: -3, y: 10}
+        - {x: -10, y: 8}
+        - {x: -10, y: -12}
+        - {x: -8, y: -16}
+        - {x: 9, y: -16}
+        - {x: 10, y: -11}
+        - {x: 10, y: -1}
+    - name: vase_7
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 10}
+        - {x: -10, y: 4}
+        - {x: -10, y: -13}
+        - {x: -8, y: -16}
+        - {x: 9, y: -16}
+        - {x: 10, y: -11}
+        - {x: 10, y: 0}
+        - {x: 9, y: 10}
+    - name: vase_8
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 10}
+        - {x: -10, y: 4}
+        - {x: -10, y: -13}
+        - {x: -8, y: -16}
+        - {x: 9, y: -16}
+        - {x: 10, y: -11}
+        - {x: 10, y: 0}
+        - {x: 9, y: 10}
     outline: []
   spritePackingTag: 
   userData: 
