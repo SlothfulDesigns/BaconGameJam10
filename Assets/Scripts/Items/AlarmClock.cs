@@ -4,6 +4,15 @@ using System.Collections;
 public class AlarmClock : Item {
 
     public bool ringing;
+    private float lastRing;
+    private AudioSource audioSource;
+    private AudioClip alarmFx;
+
+    void Start(){
+        lastRing = Time.fixedTime;
+        audioSource = GetComponent<AudioSource>();
+        alarmFx = Resources.Load<AudioClip>("Sounds/alarm");
+    }
 	
 	// Update is called once per frame
 	void Update () {
@@ -12,6 +21,14 @@ public class AlarmClock : Item {
             if (base.GetComponent<Animator>() != null)
             {
                 base.GetComponent<Animator>().SetBool("ringing", ringing);
+            }
+            if (ringing)
+            {
+                if (Time.fixedTime - lastRing > 1.0f)
+                {
+                    audioSource.PlayOneShot(alarmFx);
+                    lastRing = Time.fixedTime;
+                }
             }
         }
 	}
