@@ -6,8 +6,16 @@ public class Item : MonoBehaviour {
     private bool flying, broken;
     public bool noBrokenRigidbody;
 
+    private AudioClip breakFx;
+    private AudioSource audioSource;
+
 	// Use this for initialization
 	public void Start () {
+        audioSource = this.GetComponent<AudioSource>();
+        if (audioSource != null)
+        {
+            breakFx = Resources.Load<AudioClip>("Sounds/break");
+        }
         flying = false;
         broken = false;
 	}
@@ -37,7 +45,10 @@ public class Item : MonoBehaviour {
             GetComponent<Rigidbody2D>().simulated = false;
         }
 
-        Debug.Log(this.name + " shot to shit");
+        if (audioSource != null)
+        {
+            audioSource.PlayOneShot(breakFx);
+        }
     }
 
     public virtual void OnPlayerCollision()
