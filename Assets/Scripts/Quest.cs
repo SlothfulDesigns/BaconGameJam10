@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -9,12 +10,13 @@ public class Quest {
     public bool completesLevel = false;
     public string id, name, description;
     public List<Objective> objectives;
-    public Canvas questCompleted;
+
+    private List<string> popupTexts;
+    private bool popupVisible;
+    private float popupTime;
 
     void Start()
     {
-        questCompleted = questCompleted.GetComponent<Canvas> ();
-        questCompleted.enabled = false;
     }
 
     public Quest(string id, string name, bool ordered){
@@ -105,8 +107,20 @@ public class Quest {
     public void CompleteQuest() 
     {
         this.completed = true;
-        questCompleted.enabled = true;
-        Debug.Log("Quest completed: " + id);
+        CompletedPopup();
+    }
+
+    void CompletedPopup(){
+        var popup = GameObject.Find("QuestCompletedText");
+        var start = Time.fixedTime;
+        if (popup != null)
+        {
+            var text = popup.GetComponent<Text>();
+            if (text != null)
+            {
+                text.text = "Quest completed: " + this.name;
+            }
+        }
     }
 }
 

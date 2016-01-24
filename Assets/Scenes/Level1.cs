@@ -9,11 +9,11 @@ public class Level1 : Level {
 	// Use this for initialization
 	void Start () {
 
-        var q0 = new Quest("bed", "Leave bed", true);
+        var q0 = new Quest("bed", "Wakey wakey eggs and bakey. Rise and shine!", true);
         q0.AddObjective(new Objective("leaveBed"));
         quests.Add(q0);
 
-        var q1 = new Quest("wakeup", "Wakey wakey eggs and bakey", true);
+        var q1 = new Quest("wakeup", "Clock is ringing, you should do something about that", true);
         q1.AddObjective(new Objective("shootAlarm"));
         quests.Add(q1);
 
