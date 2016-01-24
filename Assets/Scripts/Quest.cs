@@ -111,6 +111,7 @@ public class Quest {
 
         if (this.completesLevel)
         {
+            Application.LoadLevel(2);
         }
     }
 
